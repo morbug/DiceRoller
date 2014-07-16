@@ -1,0 +1,11 @@
+﻿Tankar för DiceRoller
+
+Varje tärning ett objekt
+Varje modifikation (+1, *2 etc) är ett objekt
+
+Tärningsslagen sätts samman av tärningar och modifikationer
+Klassen tärning är abstrakt? med olika typer av tärningar som härledda:
+
+standard
+exploderande
+etc
