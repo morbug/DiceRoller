@@ -55,7 +55,7 @@
 
     ' Metoder
     Public Overrides Function ToString() As String
-        Return MyBase.ToString()
+        Return "d" & m_max
     End Function
 
     Public Function Roll() As Integer
