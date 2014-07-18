@@ -6,7 +6,7 @@
 
     ' Konstruktor
     Public Sub New(ByVal name As String)
-        Me.Name = name
+        MyBase.New(name)
     End Sub
 
 

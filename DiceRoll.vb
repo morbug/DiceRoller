@@ -1,8 +1,8 @@
 ﻿Public MustInherit Class DiceRoll
     ' Fält
     Private m_name As String
-    Private m_dice As List(Of Die)
-    Private m_modifiers As List(Of Modification)
+    Private m_dice As New List(Of Die)
+    Private m_modifiers As New List(Of Modification)
     Private m_result As Integer
 
     ' Egenskaper
